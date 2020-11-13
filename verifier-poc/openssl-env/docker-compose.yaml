@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  openssl:
+    build:
+      context: ..
+      dockerfile: openssl-env/Dockerfile
